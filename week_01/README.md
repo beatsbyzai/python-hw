@@ -1,19 +1,3 @@
-## WEEK 01
+### Assignment 1
 
-[lecture slides](https://docs.google.com/presentation/d/1FwmxJYR9ZxeNCWQaingqzl6ZpXyu_UPE6Vc5xEcvKeo/edit?usp=sharing)
-
-Sign up for Github and create personal repository for class <br>
-Download & Install Anaconda and Jupyter Notebook. Instructions [here](https://www.notion.so/anaconda-jupter-notebook-9315faf27f41489aa06806a2851c04e2)
-
-### Intro to Python
-Topics:
-- Hello World!
-- Variables
-- Strings, Lists, Dictionaries
-- Accessing elements
-- For loops
-- Conditionals
-- Functions
-
-### Assignment
-Psuedocode and create your own calculator
+This week we were asked to create a simple calculator. This was my process in doing so: Creating three input() variables, one to store the first number, second number and the operation. I turned the input for the two numbers into integers so they wouldn't be processed as strings. I used 3 conditionals to do the calculation, conditional on the input of the operation ( + or - or * ).  Then, I printed the outcome.
