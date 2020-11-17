@@ -1,6 +1,6 @@
 # Pseudo Code
 
-// This program will scrape an online website delineating the work of Octavia Butler. It will create a spreadsheet archiving the container list content from the website. The spreadsheet will contain the columns: Box, ID, Work Title, Date, Notes.
+// This program will scrape an online website delineating the work of Octavia Butler. It will create a spreadsheet archiving the container list content from the website. The spreadsheet will contain the columns: Title, Years, Notes.
 
 // import the necessary libraries, one for downloading html and one for parsing html  
 // import csv, to read and write csv files
@@ -28,19 +28,23 @@ def get_content(url, itemCount, output):
 // create lists variable to store output of each content type
 
 // use for loop to go through every element for each content type. for each iteration, append the content to its list variable.
-    // use text() method from beautiful soup to just print out text. use the strip() method to remove all whitespace
-// do the same for titles  
-// do the same for notes  
-// do the same for boxFolders
+// use text() method from beautiful soup to just print out text. use the strip() method to remove all whitespace
+// do the same for all content types.  
 
 // use conditions to return certain content based on parameter for "output"  
 
 // use a while loop to loop through every page on the site, starting with page 1.
     // create variables to store all scraping content
 
+ 
 
-
-   // break out of the while loop when the results are 0, when we are at the end of the loop  
-
-// increase itemCount by 5000, which will go on to the next page every 5000 items
-itemCount += 5000
+   // break out of the while loop when the results are 0, when we are at the end of the loop 
+ 
+   // create a new .csv file to store this information. use "a" to apped, instead of "w," which will overwrite.
+    
+        // create 3 columns, one for title, years and notes.  
+        
+        // for each type of content, print the information scrape. also create a new column to store data from each content type using writerow() and pulling from each data type. 
+        
+        // increase itemCount by 5000, which will go on to the next page every 5000 items 
+ 
